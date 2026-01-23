@@ -1,0 +1,29 @@
+{
+    "name": "@tradevault/server",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "build": "tsc -p tsconfig.json",
+        "start": "node dist/index.js",
+        "test": "vitest run"
+    },
+    "dependencies": {
+        "@fastify/cors": "^9.0.0",
+        "@fastify/helmet": "^12.0.0",
+        "@sinclair/typebox": "^0.32.0",
+        "ajv": "^8.17.0",
+        "fastify": "^5.0.0",
+        "mysql2": "^3.11.0",
+        "sequelize": "^6.37.0",
+        "sqlite3": "^5.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "tsx": "^4.19.0",
+        "typescript": "^5.6.0",
+        "vitest": "^4.0.18"
+    }
+}

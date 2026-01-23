@@ -1,0 +1,11 @@
+{
+    "name": "tradevault",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "install:all": "npm install",
+        "test": "npm -ws run test"
+    }
+}
