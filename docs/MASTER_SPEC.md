@@ -44,4 +44,4 @@
 ## 4. API Contract (Core)
 * `POST /api/v1/upload` -> Accepts Multipart File -> Returns Parsed JSON
 * `POST /api/v1/trades` -> Creates Trade Record
-* `GET /api/v1/trades` -> List Trades (Paginated)
+* `GET /api/v1/trades` -> List Trades (Paginated) 
